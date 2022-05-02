@@ -30,10 +30,25 @@
     font-weight: 400;
   }
 
+  .case-heading {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
   .keyword-text {
     color: rgb(51, 51, 51, 0.5);
     font-size: 1.1rem;
 
+  }
+
+  .body-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .case-text-margin {
+    margin-bottom: 1rem;
   }
 
   .nav-right {
@@ -65,7 +80,7 @@
   /* home page styles */
 
   #case-study-container-home {
-    margin: 0 20rem 0 20rem;
+    margin: 0 18rem 0 18rem;
   }
 
   #main-nav-container {
@@ -84,7 +99,7 @@
   }
   
   #home-bio-container {
-    margin: 2rem 28rem 0 20rem;
+    margin: 2rem 20rem 0 20rem;
     display: flex;
     align-items: center;
     gap: 6em;
@@ -98,14 +113,13 @@
 
 
 .case_study_img_container_home img {
-  width: 38rem;
+  width: 30rem;
   height: 100%;
   border-radius: 2rem 0 0 2rem;
 }
 
 .case_study_container {
   box-shadow: 0.6rem 0.6rem 2rem rgb(0, 0, 0, 0.2);
-  /* height: 28rem; */
   border-radius: 2rem;
   margin-bottom: 4rem;
   display: flex;
