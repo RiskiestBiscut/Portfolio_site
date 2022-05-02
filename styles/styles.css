@@ -33,6 +33,11 @@
     font-size: 1.5rem;
     font-weight: 400;
   }
+  .subheading-1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
 
   .case-heading {
     margin: 0;
@@ -306,7 +311,7 @@ padding-bottom: 0.1rem;
   margin-bottom: 3rem;
 }
 .previous-casestudy {
-  margin: 0 8rem 0 -8rem;
+  margin: 0 4rem 0 -8rem;
   padding: 0.7rem;
   border-radius: 0.6rem;
   border: none;
@@ -318,7 +323,7 @@ padding-bottom: 0.1rem;
   background-color: #A6A5A2;
 }
 .next-casestudy {
-  margin: 0 -8rem 0 8rem;
+  margin: 0 -8rem 0 4rem;
   padding: 0.7rem;
   border-radius: 0.6rem;
   border: none;
@@ -370,48 +375,48 @@ padding-bottom: 0.1rem;
   box-shadow: 0.4rem 0.4rem 0.6rem 0.2rem rgba(37, 37, 38, 0.12);
 }
 
-.context {
+.context-1 {
   grid-column: 3;
   grid-row: 3;
   line-height: 1.4rem;
 }
-.problem {
+.problem-1 {
   grid-column: 3;
   grid-row: 4;
   line-height: 1.4rem;
 
 }
-.vision-statement {
+.vision-statement-1 {
   grid-column: 3;
   grid-row: 5;
   line-height: 1.4rem;
 }
-.research {
+.research-1 {
   grid-column: 3;
   grid-row: 6;
   line-height: 1.4rem;
 }
-.experience-map {
+.experience-map-1 {
   grid-column: 3;
   grid-row: 7;
   line-height: 1.4rem;
 }
-.designs  {
+.designs-1  {
   grid-column: 3;
   grid-row: 8;
   line-height: 1.4rem;
 }
-.prototyping {
+.prototyping-1 {
   grid-column: 3;
   grid-row: 9;
   line-height: 1.4rem;
 }
-.high-fidelity-mockup {
+.high-fidelity-mockup-1 {
   grid-column: 3;
   grid-row: 10;
   line-height: 1.4rem;
 }
-.takeaways {
+.takeaways-1 {
   grid-column: 3;
   grid-row: 11;
   line-height: 1.4rem;
@@ -426,7 +431,7 @@ padding-bottom: 0.1rem;
   box-shadow: 0.3rem 0.3rem 0.6rem 0.2rem rgba(37, 37, 38, 0.12);
 }
 .ecosystem-link:hover {
-  background-color: #FFE68A ;
+  background-color: #FFE68A;
 }
 
 /* casestudy two styles */
@@ -441,17 +446,51 @@ padding-bottom: 0.1rem;
   margin-right: auto;
 }
 
-.site {
+.context-2 {
+  grid-column: 3;
+  grid-row: 3;
+  line-height: 1.4rem;
+}
+.problem-2 {
+  grid-column: 3;
+  grid-row: 4;
+  line-height: 1.4rem;
+
+}
+.vision-statement-2 {
+  grid-column: 3;
+  grid-row: 5;
+  line-height: 1.4rem;
+}
+.research-2 {
+  grid-column: 3;
+  grid-row: 6;
+  line-height: 1.4rem;
+}
+
+.designs-2  {
+  grid-column: 3;
+  grid-row: 7;
+  line-height: 1.4rem;
+}
+
+.high-fidelity-mockup-2 {
+  grid-column: 3;
+  grid-row: 9;
+  line-height: 1.4rem;
+}
+.takeaways-2 {
   grid-column: 3;
   grid-row: 11;
   line-height: 1.4rem;
 }
 
-.takeaways-soupsurreal {
+.site-2 {
   grid-column: 3;
-  grid-row: 12;
+  grid-row: 10;
   line-height: 1.4rem;
 }
+
 
 .next-buttons-soupsurreal {
   grid-column: 3;
@@ -463,12 +502,12 @@ padding-bottom: 0.1rem;
   padding: 0.7rem;
   border-radius: 0.6rem;
   border: none;
-  background-color: #5ABAF2;
-  color: #F7F6F2;
+  background-color: #FFC800;
+  color: #000;
   box-shadow: 0.3rem 0.3rem 0.6rem 0.2rem rgba(37, 37, 38, 0.12);
 }
 .website-link:hover {
-    background-color: #A3DDFF;
+  background-color: #FFE68A;
 }
 .side-line-soup {
   border-left: 0.3rem solid black;
@@ -484,6 +523,24 @@ padding-bottom: 0.1rem;
   border-radius: 0.6rem;
   box-shadow: 0.4rem 0.4rem 0.6rem 0.2rem rgba(37, 37, 38, 0.12);
 }
+
+.context-3 {
+  grid-column: 3;
+  grid-row: 3;
+  line-height: 1.4rem;
+}
+.problem-3 {
+  grid-column: 3;
+  grid-row: 4;
+  line-height: 1.4rem;
+
+}
+.vision-statement-3 {
+  grid-column: 3;
+  grid-row: 5;
+  line-height: 1.4rem;
+}
+
 .starting-off {
   grid-column: 3;
   grid-row: 6;
@@ -547,9 +604,8 @@ padding-bottom: 0.1rem;
   margin-left: -0.7rem;
 }
 .pro365-designs {
-  width: 140%;
+  width: 100%;
   height: auto;
-  margin-left: -24%;
 
 }
 .pro365-designs img {
@@ -558,7 +614,6 @@ padding-bottom: 0.1rem;
 
 }
 .motion-design-images {
-  margin-left: -15%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -566,7 +621,7 @@ padding-bottom: 0.1rem;
   grid-column-gap: 4rem;
 }
 .motion-design-images img {
-  width: 150%;
+  width: 100%;
   height: auto;
   box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgb(0, 0, 0, 0.2);
 }
